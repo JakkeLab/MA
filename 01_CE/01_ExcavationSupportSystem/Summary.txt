@@ -1,0 +1,10 @@
+Author : Keeleys95
+
+MA Type : Conversion from CAD sheet to BIM Model
+SW : Autodeks Revit, Rhino 7 Grasshopper
+Language : Python
+
+Prior Knowledge
+- n-Dimensional array
+- Matrix
+- Table data
