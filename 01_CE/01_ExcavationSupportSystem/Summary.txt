@@ -1,10 +1,20 @@
-Author : Keeleys95
+Author : Keeleys95 (Jakkelab)
+Date : 220525
 
 MA Type : Conversion from CAD sheet to BIM Model
-SW : Autodeks Revit, Rhino 7 Grasshopper
+SW : Autodeks Revit Dynamo, Rhino 7 Grasshopper
 Language : Python
 
 Prior Knowledge
 - n-Dimensional array
 - Matrix
 - Table data
+
+-------------- Main --------------
+This algorithm is including the contents below
+1) [Grasshopper] Building a table data from CAD Sheets related to ExcavationSupportSystem(* hereafter ESS_Wall or ESS_Strut and so on)
+    - How to collect the coordinate of each elements from ESS_Wall sheet
+    - How to sort the collected data
+    - Building a table data
+2) [Dynamo] Making elements from the table data created by using Grasshopper
+    - How to use the table data built from Grasshopper
